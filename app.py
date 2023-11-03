@@ -5,7 +5,7 @@ from flask import Flask, render_template, request, flash, redirect, session, g
 # from sqlalchemy.exc import IntegrityError
 
 from forms import UserAddForm, LoginForm, MessageForm, UserEditForm
-from models import db, connect_db, User, Message, Likes
+from my_models import db, connect_db, User, Message, Likes
 
 CURR_USER_KEY = "curr_user"
 
