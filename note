@@ -1,0 +1,2 @@
+pip3 install Flask bcrypt gunicorn SQLAlchemy WTForms
+pip3 install Flask-SQLAlchemy Flask-Bcrypt flask-wtf psycopg2
